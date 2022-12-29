@@ -1,0 +1,36 @@
+.firstpage {
+    width: 100%;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titulo {
+    font-weight: 700;
+    color: white;
+    font-size: 5.625rem;
+    line-height: 5.0625rem;
+    position: absolute;
+    top: 12.5rem;
+    left: 6.25rem;
+}
+
+.parrafo {
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    left: 6.25rem;
+    top: 25.75rem;
+}
+
+.background_img {
+    width: 80%;
+}
+
+.laptop {
+    width: 39.0625vw;
+    /* height: 78.04370447450572vh; */
+    position: absolute;
+    left: 46.875em;
+    top: 6.25em;
+}

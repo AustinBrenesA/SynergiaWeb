@@ -1,0 +1,124 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  /* position: absolute; */
+}
+
+li {
+  list-style: none;
+  font-size: 1.875rem;
+}
+
+a {
+  text-decoration: none;
+  color: #24568E;
+}
+
+.nav {
+  /* position: fixed; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: white;
+}
+.nav__brand {
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 13.625rem;
+  height: 9.5rem;
+  /* padding: 1.3rem 0rem 0rem; */
+}
+
+.nav__menu {
+  /* position: fixed; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.nav__toggler {
+  display: none;
+}
+
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: #24568E;
+  transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+  }
+  .nav__menu {
+    position: absolute;
+    top: 7vh;
+    right: 0;
+    height: 93vh;
+    width: 50vw;
+    background: white;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
+}
+/* Active Class */
+.nav__active {
+  transform: translateX(0%);
+}
+
+.nav__link:hover {
+  transition: ease 0.5s;
+  color: #23AAE2;
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}
+
+button:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+.boton_contacto {
+  background-color: #24568E;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.875rem;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 1.25rem;
+}
+
+.boton_contacto:hover {
+  background-color: #23AAE2;
+  transition-timing-function: ease-in-out;
+  transition: 0.5s;
+  cursor: pointer;
+}
