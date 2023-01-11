@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.812c079c.css",
+    "main.js": "/static/js/main.f6f036a0.js",
+    "static/js/787.87dc5f74.chunk.js": "/static/js/787.87dc5f74.chunk.js",
+    "static/media/laptop 1.svg": "/static/media/laptop 1.d40c609b7b7a9823a4e006e60da6146f.svg",
+    "static/media/Tienda.svg": "/static/media/Tienda.5cf253576ac089857bd9e8c3a2a8d50a.svg",
+    "static/media/Herramientas.svg": "/static/media/Herramientas.177569cc2d54f1b40d2eb8d32d5d50aa.svg",
+    "static/media/Jeringa.svg": "/static/media/Jeringa.629c0e73abd3bc6e3dc227f7ad515b1e.svg",
+    "static/media/LogoHorizontal_color.svg": "/static/media/LogoHorizontal_color.a5d15c485a9bd5617d8253f24f336c72.svg",
+    "static/media/Background1.svg": "/static/media/Background1.415cd3c56314ae1f70e02003b7b53abc.svg",
+    "index.html": "/index.html",
+    "main.812c079c.css.map": "/static/css/main.812c079c.css.map",
+    "main.f6f036a0.js.map": "/static/js/main.f6f036a0.js.map",
+    "787.87dc5f74.chunk.js.map": "/static/js/787.87dc5f74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.812c079c.css",
+    "static/js/main.f6f036a0.js"
+  ]
+}
