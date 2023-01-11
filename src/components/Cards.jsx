@@ -1,55 +1,48 @@
 import "../Styles/cards.css"
-import Herramientas from '../assets/Herramientas.svg';
-import Tienda from "../assets/Tienda.svg"
-import Jeringa from '../assets/Jeringa.svg'
+import {motion} from "framer-motion";
+import images from "../assets/image";
+import { useState, useRef, useEffect } from "react";
 
 export function Cards () {
+
+    const [width, setWidth] = useState(0);
+    const carousel = useRef();
+
+    useEffect(() =>{
+        console.log(carousel.current.scrollWidth, carousel.current.offsetWidth);
+        setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
+    }, []);
+
     return (
-        <div class="container">
-
-            <input type="radio" name="slider" class="d-none" id="s1" checked/>
-            <input type="radio" name="slider" class="d-none" id="s2"/>
-            <input type="radio" name="slider" class="d-none" id="s3"/>
-            <input type="radio" name="slider" class="d-none" id="s4"/>
-            <input type="radio" name="slider" class="d-none" id="s5"/>
-
-        <div class="cards">
-            <label for="s1" id="slide1">
-                <div class="card">
-                    <img src={Herramientas} alt="Herramientas" className="image"/>
-                    <h1 class="name">Ferreterias</h1>
-                </div>
-            </label>
-
-            <label for="s2" id="slide2">
-                <div class="card">
-                    <img src={Jeringa} alt="Jeringa" className="image"/>
-                    <h1 class="name">Farmacias</h1>
-                </div>
-            </label>
-
-            <label for="s3" id="slide3">
-                <div class="card">
-                    <img src={Tienda} alt="" className="image"/>
-                    <h1 class="name">aja</h1>
-                </div>
-            </label>
-
-            <label for="s4" id="slide4">
-                <div class="card">
-                    <img src={Tienda} alt="" className="image"/>
-                    <h1 class="name">aja</h1>
-                </div>
-            </label>
-
-            <label for="s5" id="slide5">
-                <div class="card">
-                    <img src={Tienda} alt="" className="image"/>
-                    <h1 class="name">Tiendas</h1>
-                </div>
-            </label>
-        </div>
-
+        <div className="container" id="cards">
+            <motion.div ref={carousel} className="carousel" whileTap={{cursor: "grabbing"}}> 
+                <motion.div className="inner-carousel" drag="x" dragConstraints={{right:0, left: -width}}>
+                        <motion.div className="item">
+                            <img src={images[0]} alt=""/>
+                            <h1>Farmacias</h1>
+                        </motion.div>
+                        
+                        <motion.div className="item">
+                            <img src={images[1]} alt=""/>
+                            <h1>Ferreterias</h1>
+                        </motion.div>
+                        
+                        <motion.div className="item">
+                            <img src={images[2]} alt=""/>
+                            <h1>Tiendas</h1>
+                        </motion.div>
+                        
+                        <motion.div className="item">
+                            <img src={images[3]} alt=""/>
+                            <h1>Librerias</h1>
+                        </motion.div>
+                        
+                        <motion.div className="item">
+                            <img src={images[4]} alt=""/>
+                            <h1>Supermercados</h1>
+                        </motion.div>
+                </motion.div>
+            </motion.div>
         </div>
     )
 }

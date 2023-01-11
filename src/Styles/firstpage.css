@@ -7,7 +7,6 @@
 .titulo {
     font-weight: 700;
     color: white;
-    font-size: 5.625rem;
     line-height: 5.0625rem;
     position: absolute;
     top: 12.5rem;
@@ -15,7 +14,6 @@
 }
 
 .parrafo {
-    font-size: 1.875rem;
     font-weight: 400;
     color: white;
     position: absolute;
@@ -23,14 +21,37 @@
     top: 25.75rem;
 }
 
+.CTA {
+    position: absolute;
+    width: 5em;
+    height: 2em;
+    top: 13em;
+    left: 2em;
+    border: none;
+    border-radius: 50px;
+    background-color: #E25B22;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    font-size: 3.125rem;
+}
+
+.CTA:hover {
+    cursor: pointer;
+}
+
+.background {
+    width: 100%;
+}
+
 .background_img {
-    width: 80%;
+    width: 75%;
 }
 
 .laptop {
-    width: 39.0625vw;
-    /* height: 78.04370447450572vh; */
+    width: 70%;
     position: absolute;
-    left: 46.875em;
-    top: 6.25em;
+    left: 30%;
+    top: 10%;
 }

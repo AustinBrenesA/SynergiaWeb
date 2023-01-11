@@ -1,3 +1,4 @@
+import "./Styles/responsive.css";
 import React from "react";
 import Navbar from "./components/navbar";
 import FirstPage from "./components/FirstPage";

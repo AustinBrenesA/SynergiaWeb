@@ -1,0 +1,40 @@
+.secondpage {
+    width: 100%;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titulo2{
+    font-weight: 700;
+    color: white;
+    line-height: 5.0625rem;
+    position: absolute;
+    left: 45%;
+    top: 17%;
+}
+
+.parrafo2{
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+
+.background2{
+    width: 100%;
+}
+
+.backgroundimg2 {
+    position: relative;
+    left: 25%;
+    width: 75%;
+    z-index: -1;
+}
+
+.handshake{
+    top: 20%;
+    left: 5%;
+    width: 40%;
+    position: absolute;
+}
