@@ -16,9 +16,6 @@ function App() {
       <Cards />
       <Modulos />
       <Paquetes />
-      */ hola */
-
-      
     </div>
   );
 }
