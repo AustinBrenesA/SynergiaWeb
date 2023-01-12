@@ -1,0 +1,86 @@
+.Text {
+    position: absolute;
+    width: 1200px;
+    height: 450px;
+    left: 350px;
+    top: 5540px;
+}
+
+
+.Text {
+    /* Dark */
+
+    background: #24568E;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+}
+
+
+.Paquetes {
+    /* Rectangle 30 */
+
+
+position: absolute;
+width: 600px;
+height: 200px;
+left: 300px;
+top: -100px;
+}
+
+.Paquetes {
+    /* Details */
+
+    background: #E25B22;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 30px;
+}
+
+p {
+    position: absolute;
+    width: 1073px;
+    height: 216px;
+    left: 50px;
+    top: 140px;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;    
+    line-height: 90%;
+    /* or 54px */
+
+    text-align: center;
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+h2 {
+    position: absolute;
+    width: 304px;
+    height: 90px;
+    left: 78px;
+    top: 67px;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 90%;
+    /* identical to box height, or 90px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+}

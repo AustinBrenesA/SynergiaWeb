@@ -4,6 +4,8 @@ import Navbar from "./components/navbar";
 import FirstPage from "./components/FirstPage";
 import { SecondPage } from "./components/SecondPage";
 import { Cards } from "./components/Cards";
+import Modulos from "./components/Modulos";
+import Paquetes from "./components/paquetes";
 
 function App() {
   return (
@@ -12,6 +14,10 @@ function App() {
       <FirstPage />
       <SecondPage />
       <Cards />
+      <Modulos />
+      <Paquetes />
+
+      
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import "../Styles/firstpage.css"
 import { motion } from "framer-motion";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Background from '../assets/Background1.svg';
 import Laptop from '../assets/laptop 2.svg';
 

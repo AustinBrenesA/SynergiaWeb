@@ -1,0 +1,453 @@
+.INTMOD {
+    position: absolute;
+    width: 1046px;
+    height: 208px;
+    left: 277px;
+    top: -384px;
+}
+
+.INTMOD {
+    /* Details */
+
+    background: #E25B22;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 30px;
+}
+
+.titim {
+    position: absolute;
+    width: 788px;
+    height: 90px;
+    left: 140px;
+    top: 83px;
+}
+
+.titim {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 90%;
+    /* identical to box height, or 90px */
+
+
+    color: #FFFFFF;
+}
+
+
+.services1 {   
+    position: relative;
+    width: 1500px;
+    height: 1500px;
+    left: 190px;
+    top: 395px;   
+}
+
+.Ventas {
+    background: #24568E;
+    padding: 17rem 5rem;
+    border-Radius: 30px;
+    height: -10px; 
+    box-Shadow: 0px 10 px 30 px rgba(0,0,0, 0.5)
+}
+
+.Ventas p{
+    position: absolute;
+    width: 400px;
+    height: 216px;
+    left: -15px;
+    top: 267px;    
+}
+
+
+.Ventas p {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 90%;
+/* or 36px */
+
+    text-align: center;
+}
+
+
+.Ventas {
+    position: relative;
+    left: 05%;
+    right: 90%;
+    top: -102%;
+    bottom: 0%;
+    width: 28%;
+}
+
+.Carrito {
+   height: 350px;
+   position: absolute;
+   top: -70px;
+   left: 30px;
+}
+
+.Vventas{  
+    position: absolute;
+    width: 207px;
+    height: 81px;
+    left: 55px;
+    top: 500px;   
+}
+
+.Vventas{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 90%;
+/* identical to box height, or 81px */
+
+
+/* White */
+
+    color: #FFFFFF;
+}
+
+
+.Compras {
+    background: #23AAE2;
+    padding: 17rem 5rem;
+    border-Radius: 30px;
+    height: -10px; 
+    box-Shadow: 0px 10 px 30 px rgba(0,0,0, 0.5)
+}
+
+.Compras p{
+    position: absolute;
+    width: 400px;
+    height: 216px;
+    left: -05px;
+    top: 260px; 
+}
+
+.Compras p {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 90%;
+/* or 36px */
+
+    text-align: center;
+}
+
+
+.Compras {
+    position: relative;
+    left: 36%;
+    right: 90%;
+    top: -125%;
+    bottom: 0%;
+    width: 28%;
+}
+
+.Dollar {
+    height: 350px;
+    position: absolute;
+    top: -75px;
+    left: 15px;
+ }
+
+ .Vcompras {
+    position: absolute;
+    width: 260px;
+    height: 81px;
+    left: 40px;
+    top: 500px;
+ }
+
+ .Vcompras {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 90%;
+    /* identical to box height, or 81px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+ }
+
+ .Cuentas {
+    background: #24568E;
+    padding: 17rem 5rem;
+    border-Radius: 30px;
+    height: -10px; 
+    box-Shadow: 0px 10 px 30 px rgba(0,0,0, 0.5)
+}
+
+.Cuentas p{
+    position: absolute;
+    width: 400px;
+    height: 216px;
+    left: -17px;
+    top: 260px;
+}
+
+.Cuentas p {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 90%;
+/* or 36px */
+
+    text-align: center;
+}
+
+
+.Cuentas {
+    position: relative;
+    left: 67%;
+    right: 90%;
+    top: -145%;
+    bottom: 0%;
+    width: 28%;
+}
+
+.Chart {
+   height: 350px;
+   position: absolute;
+   top: -70px;
+   left: 30px;
+}
+
+.Vcuentas{  
+    position: absolute;
+    width: 207px;
+    height: 81px;
+    left: 45px;
+    top: 500px;  
+}
+
+.Vcuentas{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 90%;
+/* identical to box height, or 81px */
+
+
+/* White */
+
+    color: #FFFFFF;
+}
+
+.Inventarios {
+    background: #23AAE2;
+    padding: 17rem 5rem;
+    border-Radius: 30px;
+    height: -10px; 
+    box-Shadow: 0px 10 px 30 px rgba(0,0,0, 0.5)
+}
+
+.Inventarios p {
+    position: absolute;
+    width: 400px;
+    height: 216px;
+    left: -10px;
+    top: 250px;
+}
+
+.Inventarios p {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 90%;
+    
+/* or 36px */
+
+    text-align: center;
+}
+
+
+.Inventarios {
+    position: relative;
+    left: 05%;
+    right: 90%;
+    top: -160%;
+    bottom: 0%;
+    width: 28%;
+}
+
+.Box {
+   height: 350px;
+   position: absolute;
+   top: -70px;
+   left: 18px;
+}
+
+.Vinventarios{  
+    position: absolute;
+    width: 207px;
+    height: 81px;
+    left: -10px;
+    top: 500px;  
+}
+
+.Vinventarios{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90%;
+/* identical to box height, or 81px */
+
+
+/* White */
+
+    color: #FFFFFF;
+}
+
+.Cajas {
+    background: #24568E;
+    padding: 17rem 5rem;
+    border-Radius: 30px;
+    height: -10px; 
+    box-Shadow: 0px 10 px 30 px rgba(0,0,0, 0.5)
+}
+
+.Cajas p{
+    position: absolute;
+    width: 400px;
+    height: 216px;
+    left: -5px;
+    top: 265px;
+}
+
+.Cajas p {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 90%;
+/* or 36px */
+
+    text-align: center;
+}
+
+
+.Cajas {
+    position: relative;
+    left: 36%;
+    right: 90%;
+    top: -185%;
+    bottom: 0%;
+    width: 28%;
+}
+
+.Resume {
+    height: 350px;
+    position: absolute;
+    top: -90px;
+    left: 15px;
+ }
+
+ .Vresume {
+    position: absolute;
+    width: 260px;
+    height: 81px;
+    left: 100px;
+    top: 510px;
+ }
+
+ .Vresume {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 90%;
+    /* identical to box height, or 81px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+ }
+
+ .Informes {
+    background: #23AAE2;
+    padding: 17rem 5rem;
+    border-Radius: 30px;
+    height: -10px; 
+    box-Shadow: 0px 10 px 30 px rgba(0,0,0, 0.5)
+}
+
+.Informes p{
+    position: absolute;
+    width: 400px;
+    height: 216px;
+    left: -9px;
+    top: 265px;
+}
+
+.Informes p {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 90%;
+/* or 36px */
+
+    text-align: center;
+}
+
+
+.Informes {
+    position: relative;
+    left: 67%;
+    right: 90%;
+    top: -210%;
+    bottom: 0%;
+    width: 28%;
+}
+
+.Board {
+   height: 350px;
+   position: absolute;
+   top: -70px;
+   left: 20px;
+}
+
+.Vinformes{  
+    position: absolute;
+    width: 207px;
+    height: 81px;
+    left: 25px;
+    top: 500px;  
+}
+
+.Vinformes{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 90%;
+/* identical to box height, or 81px */
+
+
+/* White */
+
+    color: #FFFFFF;
+}
+
