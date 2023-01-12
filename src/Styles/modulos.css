@@ -51,7 +51,7 @@
     padding: 17rem 5rem;
     border-Radius: 30px;
     height: -10px; 
-    box-Shadow: 0px 10 px 30 px rgba(0,0,0, 0.5)
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.35);
 }
 
 .Ventas p{
@@ -120,7 +120,7 @@
     padding: 17rem 5rem;
     border-Radius: 30px;
     height: -10px; 
-    box-Shadow: 0px 10 px 30 px rgba(0,0,0, 0.5)
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.35);
 }
 
 .Compras p{
@@ -187,7 +187,7 @@
     padding: 17rem 5rem;
     border-Radius: 30px;
     height: -10px; 
-    box-Shadow: 0px 10 px 30 px rgba(0,0,0, 0.5)
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.35);
 }
 
 .Cuentas p{
@@ -254,7 +254,7 @@
     padding: 17rem 5rem;
     border-Radius: 30px;
     height: -10px; 
-    box-Shadow: 0px 10 px 30 px rgba(0,0,0, 0.5)
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.35);
 }
 
 .Inventarios p {
@@ -322,7 +322,7 @@
     padding: 17rem 5rem;
     border-Radius: 30px;
     height: -10px; 
-    box-Shadow: 0px 10 px 30 px rgba(0,0,0, 0.5)
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.35);
 }
 
 .Cajas p{
@@ -389,7 +389,7 @@
     padding: 17rem 5rem;
     border-Radius: 30px;
     height: -10px; 
-    box-Shadow: 0px 10 px 30 px rgba(0,0,0, 0.5)
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.35);
 }
 
 .Informes p{

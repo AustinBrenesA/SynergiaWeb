@@ -84,3 +84,66 @@ h2 {
     color: #FFFFFF;
 
 }
+
+.Regimen {
+    position: absolute;
+    left: 5%;
+    right: 68.74%;
+    width: 28%;
+    height: 100%;
+    top: 680%;
+
+
+   
+}
+
+.Regimen {
+    /* Dark */
+
+    background: #24568E;
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(7.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 30px;
+}
+
+.Regimen h2 {
+    position: absolute;
+    width: 73%;
+    left: 11%;
+    top: 5%;
+}
+
+.Regimen h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 380%;
+    line-height: 90%;
+    /* or 81px */
+
+    text-align: center;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.Regimen ul {
+    position: absolute;
+    left: 2%;
+    top: 30%;
+}
+
+.Regimen ul {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 350%;
+    line-height: 130%;
+    /* or 60px */
+
+
+    color: #FFFFFF;
+}
